@@ -88,6 +88,7 @@ header nav.menu-desktop ul li{
 .btn-abrir-menu i{
     color: #00FF08;
     font-size: 40px;
+    cursor: pointer;
 }
 
 .menu-mobile{
@@ -112,6 +113,7 @@ header nav.menu-desktop ul li{
 
 .menu-mobile .btn-fechar{
     padding: 20px 5%;
+    cursor: pointer;
 }
 
 .menu-mobile .btn-fechar i{
