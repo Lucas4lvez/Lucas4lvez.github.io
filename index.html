@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.PNG">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo.PNG">
+     <!-- FIM GOOGLE FONTS -->
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--FIM BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="scri pt.js"></script> -->
+    <script src="menu.js" defer></script>
+
+    <title>Portifólio</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo.jpg" alt="logo">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#contato">
+                    <button>Contato</button>
+                </a>
+            </div><!--contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x"></i> 
+                </div>
+
+                <div class="topicos-mobile">
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                    </ul>
+                </div>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+    <main>
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>ANÁLISE E DESENVOLVIMENTO DE <span>SISTEMAS.</span></h1>
+                        <p>Lucas Alves</p>
+
+                        <div class="btn-entre-em-contato">
+                            <a href="#fale-comigo">
+                                <button>Entre em Contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="images/codigo.png" alt="ney">
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>WebSite</h3>
+                        <p>Tenho certa experiência no desenvolvimento de websites, utilizando tecnologias como JavaScript, PHP, CSS E HTML. Consigo criar sites responsivos, desenvolver sistemas de login e cadastros, além de implementar soluções dinâmicas para atender às necessidades específicas de cada projeto. Busco sempre aplicar as melhores práticas de programação, como por exemplo, sempre manter o código limpo e organizado, para entregar sites funcionais e eficientes.</p>
+                    </div><!--especialidade-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-person-raised-hand"></i>
+                        <h3>Competências</h3>
+                        <p>Conhecimento de JavaScript, PHP, HTML, CSS. Sou habilidoso em desenvolvimento front-end, criando interfaces responsivas, e back-end, com foco em banco de dados. Além das habilidades técnicas, sou organizado, adaptável, trabalho bem em equipe, sempre busco rapidamente por soluções de problemas, garantindo a eficiência e qualidade na entrega de projetos.</p>
+                    </div><!--especialidade-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-question-lg"></i>
+                        <h3>O que busco</h3>
+                        <p>Busco uma oportunidade em uma empresa onde eu possa crescer profissionalmente , contribuindo para o desenvolvimento e sucesso do negócio. Meu objetivo é aplicar e expandir meus conhecimentos, aprender novas tecnologias e práticas, enquanto trabalho em equipe para alcançar resultados que façam a empresa evoluir juntamente comigo.</p>
+                    </div><!--especialidade-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especialidades-->
+
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/code.jpg" alt="">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre" id="sobre">
+                        <h2>MUITO PRAZER,<span> SOU LUCAS ALVES.</span></h2>
+                        <p>Meu nome é Lucas Alves, tenho 19 anos. Resido em São José dos Campos, SP, Brasil, e meu objetivo é adquirir mais conhecimentos e aprofundar-me ainda mais nessa vasta área da programação.
+
+                            Atualmente estou fazendo um curso técnico de Análise e Desenvolvimentos de Sistemas, na ETEC.
+                            
+                            Possuo certa experiência na área de T.I, como crimpar cabos de rede, configurar dispositivos PTP (point-to-point) como Nano, Rocket, mexer com redes, configurar IP, desenvolver, atualizar e supervisionar sites, etc. Essa experiência veio em decorrência do ano de serviço militar obrigátorio em Caçapava, SP, onde eu fui designado para a área de informática e consequentemente, desenvolvi essas competências.
+                            Além da especialização técnica que ainda estou cursando, possuo as seguintes certificações:<br></br>
+                            - Curso de criação de site no padrão E-Gov pelo JOOMLA<br></br>
+                            - Curso de Inglês básico<br></br>
+                            - Curso de cybersegurança da CISCO</p>
+                        <div class="btn-social">
+                            <a href="https://instagram.com/alvez_luscas" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/Lucas4lvez" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3Be9DPYmN6Sj%2B7Q6fT6SRIAw%3D%3D" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="portfolio">
+            <div class="interface">
+                <h2 class="titulo" id="projetos">MEU <span>PORTIFÓLIO.</span></h2>
+                <div class="flex">
+                    <a href="../projetos/crud4/index.html" class="href">
+                        <div class="img-port" style="background-image: url(images/pix.jpg);">
+                            <div class="overlay">Projeto 1</div>
+                        </div>
+                    </a>
+                    <div class="img-port" style="background-image: url(images/pix.jpg);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/pix.jpg);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario">
+            <div class="interface">
+                <form method="post" action="envia.php" id="fale-comigo">
+                    <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+                        <form action="">
+                            <input type="text" name="nome" id="" placeholder="Nome:" required>
+                            <input type="text" name="email" id="" placeholder="Email:" required>
+                            <input type="text" name="celular" id="" placeholder="Celular:">
+                            <textarea name="mensagem" id="" placeholder="Mensagem:" required></textarea>
+                            <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                        </form>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logo.jpg" alt="logo">
+                    </div><!--logo-footer-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill" id="contato"></i> <a href="mailto:lucasalves_deoliveira@outlook.com">email para contato</a></a></p>
+                <p><i class="bi bi-whatsapp"></i> <a href="https://wa.me/5512987034178">número para contato</a></a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+</body>
+</html>
